@@ -12,7 +12,7 @@ public class calculator implements ActionListener{
     JButton decButton, equButton, delButton, clrButton, negButton;
     JPanel panel;
 
-    Font myFont = new Font("Ink Free", Font.BOLD, 30);
+    Font myFont = new Font("SERIF", Font.BOLD, 25);
 
     double num1=0, num2=0, result=0;
     char operator;
@@ -35,8 +35,8 @@ public class calculator implements ActionListener{
         divButton = new JButton("/");
         decButton = new JButton(".");
         equButton = new JButton("=");
-        delButton = new JButton("Delete");
-        clrButton = new JButton("Clear");
+        delButton = new JButton("Del");
+        clrButton = new JButton("C");
         negButton = new JButton("(-)");
 
         functionButtons[0] = addButton;
